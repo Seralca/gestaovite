@@ -1,0 +1,15 @@
+#footer {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  font-size: calc(5px + 1.5vmin);
+    
+}
+
+
+p2 {
+  color: blue;
+  font-weight:500;
+  padding: 100px;
+  
+}
