@@ -1,42 +1,101 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.App {
+  text-align: left;
+  color: orange;
+  font-weight: bold;
+  margin: 50px;
+  font-size: calc(10px + 2vmin);
+  
+}
+
+
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  
+
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+
+img {
+  height: 50px;
+
+
+}
+
+h1 {
   text-align: center;
+  color:white;
+  font-weight: bold;
+  margin: 50px;
+  font-size: calc(30px + 2vmin);
+  
+
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+h2 {
+  
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3 {
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  margin: 50px;
+  font-size: calc(30px + 2vmin);
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+h4 {
+
 }
 
-.card {
-  padding: 2em;
+h5 {
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  margin: 50px;
+  font-size: calc(30px + 2vmin);
+
 }
 
-.read-the-docs {
-  color: #888;
+h6 {
+  
+}
+
+button {
+  width: 250px;
+  height: 50px;
+  border-bottom: 10;
+  margin: 15px;
+  border-color: #eb9b48;
+  background: linear-gradient(to bottom, #f7d6b3 5%, #eb9b48 100%);
+  box-shadow: inset 0px 1px 0px 0px #fdf7f0;
+  text-shadow: 0px 1px 0px #ffee66;
+  font-size:medium;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+body {
+  background-image: url('./img/img_Operacao.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+p{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
