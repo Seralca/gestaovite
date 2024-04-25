@@ -1,5 +1,5 @@
 .App {
-  text-align: left;
+  text-align:center;
   color: orange;
   font-weight: bold;
   margin: 50px;
@@ -42,7 +42,6 @@ h1 {
 
 }
 
-h2 {}
 
 h3 {
   text-align: center;
@@ -53,7 +52,7 @@ h3 {
 
 }
 
-h4 {}
+
 
 h5 {
   text-align: center;
@@ -64,20 +63,15 @@ h5 {
 
 }
 
-h6 {}
-
-h7 {}
 
 h8 {
-  text-align:center;
+  text-align: center;
   color: white;
   font-weight: bold;
   margin: 50px;
   font-size: calc(30px + 2vmin);
 
 }
-
-h9 {}
 
 
 button {
