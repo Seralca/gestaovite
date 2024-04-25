@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 import Logo from "./img/LOGO.png"
-
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -54,6 +54,7 @@ function App() {
           <a href="https://io.cliqueretire.com.br/">  <button>CLIQUERETIRE</button> </a>
         </p>
       </h9>
+      <Footer />
    </div>    
   );
 }
